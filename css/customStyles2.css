@@ -1,0 +1,288 @@
+.h5class{
+    font-family: Manrope;
+color: #072794;
+    font-size: 16px;
+    line-height: 34px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    padding-left: 4%!important;
+}
+      .header-bg {
+        background-image: url('../assets/background_landing.png');
+        background-size: 100% 100%;
+        background-position: top;
+        position: relative;
+        background-repeat: no-repeat;
+      }
+      .underlineImg {
+        position: relative;
+      }
+      .underlineImg:after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: -4%;
+        height: 10px;
+        width: 100%;
+        background-image: url('../assets/underline_lp.png');
+        background-position: center;
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+      }
+      .custom-dropdown {
+        width: 30vw !important;
+         /* Adjust the width as needed */
+      }
+
+      .professionalBackground {
+        /* background: url('../assets/White_square1.png'); */
+        background-position: top;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 100%;
+        
+        &.mobile { 
+          min-height: 450px;
+          margin: 5px;
+        }
+      }
+
+
+      .footerStyle {
+        background-image: url('../assets/Ellipse_43.png');
+        background-size: 100% 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+      }
+
+      @media only screen and (max-width: 576px) {
+        .mainHeading-2 {
+        color: var(--Secondary, #C04BE2);
+        text-align: center;
+        font-family: Playfair Display;
+        font-size: 14px !important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px !important;
+        letter-spacing: 0.8px;
+        height: 30px;
+        padding-bottom: 3% !important;
+    }
+        #progress{
+    z-index: 4;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 35px;
+    left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: grid;
+    place-items: center;
+}
+.menu-icon
+{
+    float: left;
+    bottom: 40px;
+    left: 18px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    
+   
+    
+    padding: 3%;
+    position: fixed;
+    z-index: 9999;
+}
+#progress-value{
+    display: block;
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    background-image: radial-gradient(circle, #5479F7 0%, #C04BE2 120.19%);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.autoplay1 {
+    & .slick-dots {
+        bottom: -40px;
+        & li.slick-active button:before{
+            width: 6px;
+            height: 6px;
+            background-color: #6B54F7;
+            border-radius: 50%;
+            color: transparent;
+            opacity: 1;
+        }
+
+        & li button:before {
+            color: transparent;
+            width: 6px;
+            height: 6px;
+            border: 2px solid #6B54F7; 
+            border-radius: 50%;
+            opacity: 1;
+        }
+        .slick-dotted.slick-slider {
+             margin-bottom: 0px !important;
+        }
+    }
+}
+        .header-bg {
+            background-size: 200% 80%;
+        }
+
+        .professionalBackground {
+          background: url('../assets/Card_mobile_view.png');
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: 100% 100%;
+          height: 150px;
+          /* box-shadow: 0 0px 20px 0px #33333380; */
+          /* border-radius: 16px; */
+
+        }
+
+        .footerStyle {
+          background-size: cover;
+        }
+
+        .CurriculumCarosuel li{
+          position: relative;
+          & .viewAllButton {
+            position: absolute;
+            bottom: -30px;
+            left: 0px;
+          }
+        }
+
+      }
+
+      .whyFinvedicScroll.active {
+        color: #ffffff!important
+      }
+
+      .CurriculumCarosuel__item:nth-child(1) {
+        background: url('../assets/book_cover4.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .rocketText {
+    height: 500px;
+    max-width: 400px;
+    border-radius: 24px 24px 192px 192px;
+    background: linear-gradient(270deg, rgba(115, 28, 201, 0.00) -105.74%, #A65FED80 48.99%, rgba(115, 28, 201, 0.26) 177.2%);
+   /*
+    box-shadow: 0px 8px 33.8px 0px #b7b6b6 inset;
+    */
+    position: relative;
+    overflow: hidden;
+    font-family: Manrope;
+    color: var(--Primary-White, #FFF);
+    font-weight: 500;
+    line-height: 2.5em;
+    letter-spacing: 0.8px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*
+    & ul {
+        list-style: url(../assets/arrow-right-solid.svg);
+       
+    }*/
+}
+      .CurriculumCarosuel__item:nth-child(2) {
+        background: url('../assets/book_cover3.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      
+      .CurriculumCarosuel__item:nth-child(3) {
+        background: url('../assets/book_cover2.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      .CurriculumCarosuel__item:nth-child(4) {
+        background: url('../assets/book_cover5.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .curriculamText1 {
+    color: #7F8BAB;
+    text-align: left;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    & ul {
+        list-style: url('../assets/doublearrow.svg');
+    }
+    
+}
+.CCHeading {
+    color: #031349;
+    text-align: left;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    padding-top: 15%;
+}
+
+      .CurriculumCarosuel__item:nth-child(5) {
+        background: url('../assets/book_cover1.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .CurriculumCarosuel__item:nth-child(6) {
+        background: url('../assets/book_cover6.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .CurriculumCarosuel__item:nth-child(7) {
+        background: url('../assets/book_coverX.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+       .CurriculumCarosuel__item:nth-child(8) {
+        background:  url('../assets/book_cover8.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+      }
+       .CurriculumCarosuel__item:nth-child(9) {
+        background: url('../assets/book_cover9.png');
+         background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+      }
+       .CurriculumCarosuel__item:nth-child(10) {
+        background:url('../assets/book_cover1.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+      }
+      .CurriculumCarosuel__item:nth-child(11) {
+        background: url('../assets/book_cover7.png');
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }

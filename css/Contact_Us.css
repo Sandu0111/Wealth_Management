@@ -1,0 +1,292 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .customcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+}
+
+
+  
+  /* .background-color {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(224, 213, 253, 1), rgba(87, 120, 246, 1));
+    z-index: 1; /* Ensure the background color is behind the image 
+  } */
+  
+  /* .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/Vector 1.png');
+    background-size: 100% auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+  } */
+  /* .navbar-nav .nav-link { */
+    /* font-size: 22px; Adjust the font size as needed */
+/* } */
+
+  .form_class{
+    /* position: absolute; */
+    /* bottom: 0%; */
+   margin-top: 8%;
+    margin-left: 4%;
+    /* margin-bottom: 3%; */
+    /* border: 2px solid red; */
+    margin-top: 7% !important;
+  }
+  .contactUs_btns{
+    background-color: #fff; 
+    width: 90px !important; 
+    height: 90px !important;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #EDC2FD; 
+    border-radius: 50%;
+  }
+  .contactUs_btns img{
+    width: 85%;
+  }
+ 
+  .contactUs_btn_txt{
+    background:url(../assets/Contact_rename.png);
+    background-repeat: no-repeat;
+    display: flex;         
+    align-items: center;
+    height: 110px;
+    width: 24vw;
+    background-size: 100% 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+  }
+  .contactUs_btn_style{
+    text-align: left;
+    line-height: 18px;
+  }
+  .col-form-label{
+    color: #4D3A99;
+    font-size: 38px;
+    font-family: Manrope;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  .PageHeading{
+    color: white;
+    font-family:Playfair Display, serif;
+    font-weight: 600;
+    font-size: 64px; 
+    letter-spacing: 2px; 
+  }
+  .submit_btn{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 600;
+     letter-spacing: 1px; 
+     border-radius: 40px !important; 
+     padding: 10% 35% !important; 
+     box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.3); 
+     background-color: #0F2ED1 !important;
+  }
+  .form-control {
+    background-color: #EFE9FF !important; 
+    border-radius: 32px !important;
+    height: 62px;
+    
+}
+
+input[type="text"].form-control{
+    height: 62px;
+}
+
+  .images img {
+    max-width: 100px;
+  }
+  .image_arrow{
+    max-width: 80px;
+    padding-top: 40%;
+  }
+  
+.bottom_nav ::before{
+    background-color: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+}
+.bottom_nav:hover{
+    opacity: 100%;
+}
+/* .bottom_nav a { 
+    color: #fff; 
+    text-align: center; 
+    padding: 15px 10px; 
+    text-decoration: none; 
+    font-size: 17px; 
+    opacity: 80%;
+}  */
+
+.bottom_nav a:hover { 
+    color: #c04be2;
+    border-radius: 10px; 
+    opacity: 100%;
+    
+   
+} 
+
+.bottom_nav a .icon { 
+    margin-right: 8px; 
+}
+::placeholder {
+  font-size: 16px;
+}
+.mobilepart{
+  display: none ;
+}
+
+/* Hide navbar-nav class on mobile view********************************************************************/
+@media only screen and (max-width: 768px) { 
+  
+.desk{
+ display: none;
+  }
+  .mobilepart {
+    display: block;
+    position: fixed;
+    background: linear-gradient(#C7BAFF, #5495F7, #6B54F7);
+}
+
+.top {
+  position: relative;
+}
+.mobile_background{
+  background:url(../assets/Rectangle_113.png); 
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.contact_whole{
+  height: 20vw !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.navbar_mobile{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center;
+}
+.navbar-brand{
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.heading h1{
+  font-family: 'Playfair Display';
+  font-weight: 700 !important;
+  font-size: 36px !important;
+}
+.top img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  top: 50%; /* Adjust as needed to center vertically */
+  left: 40%; /* Adjust as needed to center horizontally */
+  transform: translate(-50%, -50%); /* Center the content */
+  text-align: center; /* Optionally center-align text */
+  color: white; /* Text color */
+  z-index: 2; /* Ensure the content appears above the image */
+  border:solid yellow 2px;
+}
+.contactUs_btns{
+  background-color: #fff; 
+  width: 65px !important; 
+  height: 65px !important;
+  /* height: 80% !important; */
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #EDC2FD; 
+  border-radius: 50%;
+  /* margin-left: 3%; */
+}
+ .contactUs_btns img{
+  width: 100%;
+} 
+.centering_rows{
+  width:80% !important;
+  justify-content: center;
+  align-items: center;
+  
+  /* border: 2px solid red; */
+}
+.contactUs_btn_txt {
+  background: url(../assets/Contact_rename.png);  
+  /* height: 60px; */
+  /* margin-top:-30% !important; */
+  /* width: 90% !important; */
+  background-size: 100% 100%;
+  height: 100% !important;
+  /* margin-left: 37%;
+  margin-bottom: 20px; */
+}
+.contactUs_btn_style{
+  text-align: left;
+  line-height: 18px;
+  
+}
+.submit_btn{
+  font-family: 'Playfair Display', serif; 
+  font-weight: 600;
+   letter-spacing: 1px; 
+   border-radius: 40px !important; 
+   padding: 3% 9% !important; 
+   box-shadow: 8px 8px 15px 0px rgba(0,0,0,0.3); 
+   background-color: #0F2ED1 !important;
+}
+.adress_text{
+  background-color: #ffff;
+  border-radius: 20px;
+  z-index: 2;
+  left: 10%;
+  bottom: 0%;
+  position: absolute;
+}
+::placeholder {
+  color: #999; /* Placeholder text color */
+  font-style: manrope; /* Placeholder text style */
+  font-size: 14px; /* Placeholder text size */
+  color: #BEBBC9
+  weight 500px;
+  line-height: 19.12px;
+  Height:30px;
+  Top:470px;
+}
+.form-control {
+  background-color: #EFE9FF !important; 
+  border-radius: 32px !important;
+  height: 39px;
+  
+}
+
+input[type="text"].form-control{
+  height: 42px;
+  margin-left: 5%;
+}
+input[type="number"].form-control{
+  height: 42px;
+  margin-left: 5%;
+}
+
+}

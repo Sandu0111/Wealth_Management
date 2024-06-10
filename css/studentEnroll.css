@@ -1,0 +1,487 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* background-color: #6a8bff; */
+    background:url(../assets/masterclass_bg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      /* height: 100vh; */
+      
+    
+}
+.mobile_view{
+    display: none;
+}
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    border-radius: 30px;
+    padding:10px;
+    perspective: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .books{
+    width: 220px;
+    height: 300px;
+  } */
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  }
+  
+  .flip-card:focus {
+      outline: 0;
+  }
+  
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus .flip-card-inner{
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border-radius: 50px;
+  }
+  
+  
+  .flip-card-front {
+    background: linear-gradient(60deg, #C04BE2, #6B54F7);
+    border-radius: 50px;
+    color: black;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-link {
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+  }
+  .flip-card-back {
+    background: linear-gradient(60deg,#6B54F7, #C04BE2 );
+    color: white;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid green; */
+    width: 60%;
+    font-size: 28px;
+}
+.popup-overlay {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 40%;
+    /* border: 2px solid green; */
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+}
+.button-container {
+    text-align: center;
+  }
+.delayed-button {
+    position: fixed;
+    bottom: 2vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 1%;
+    border: 2px solid blue;
+    background-color: #007bff;
+    right: 2vw;
+    animation: blink-animation 1s infinite alternate;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#click-message {
+    position: fixed;
+    bottom: 14vh;
+    right: 2vw;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+    /* Other styles for your click message */
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+.popup-content {
+    background-color: #007bff ;
+    max-width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1002;
+}
+/* .desk{
+    background:url(../assets/masterclass_bg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      /* min-width: 100vw; */
+      /* overflow-x:hidden ; */
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    /* border: 2px solid green; */
+    width: fit-content;
+}
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(219, 219, 219, 0.904);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button_class {
+    width: 150px;
+    height: 45px;
+    background: linear-gradient(60deg, #C04BE2, #6B54F7);
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    border-radius: 50px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 8%;
+    cursor: pointer;
+    color: #fff !important;
+}
+h1{
+    text-align: center;
+    font-family:'Playfair';
+    padding-top: 2%;
+    font-weight: 700;
+    color: #fff;
+}
+.input_pdf{
+    background-color: #fff !important;
+}
+.form_student{
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    background-color: #1A01B0;
+    border-radius: 30px !important;
+    /* height: 80vh; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-bottom: 2%;
+}
+.web_input,
+.input_pdf{
+     /* width: 600px;
+    height: 65px; 
+    height: 6vh; */
+    /* margin-left: auto; */
+    margin-right: auto;
+    color: black;
+    font-family:'Manrope';
+    font-size: 20px;
+    border: 1px solid #ccc; /* Default border color */
+    transition: border-color 0.3s; /* Smooth transition effect */
+    outline: none;
+    padding-left: 5%;
+    height: 45px; 
+    /* width: 60% !important; */
+    font-family: 'Manrope';
+}
+
+input[type="password"]{
+    margin-right: auto;
+    color: black;
+    font-family:'Manrope';
+    font-size: 20px;
+    border: 1px solid #ccc; /* Default border color */
+    border-radius:50px;
+    transition: border-color 0.3s; /* Smooth transition effect */
+    outline: none;
+    padding-left: 5%;
+    height: 35px; 
+    width: 40% !important;
+    font-family: 'Manrope';
+}
+.mobile_view{
+    display: none;
+}
+tr:nth-child(even) {
+    background-color: #3a56f7; /* Change this to your desired background color */
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+
+.row{
+    margin-bottom: 2% !important;
+}
+label {
+    align-self: flex-start;
+    color: #fff;
+    font-size: 18px;
+    line-height: 4vh;
+    padding-top: 10px;
+    padding-left: 0px !important;
+}
+#uploadButton2{
+    font-size: small;
+}
+#uploadButton{
+    font-size: small;
+}
+.text_style{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+    /* letter-spacing: 2px; */
+
+.text_style2{
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+::placeholder {
+  font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    color: #D0CFCF;
+    font-weight: 50;
+    /* padding-left: 4%; */
+}
+/* Hover effect for input fields */
+ input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+ border: 2px solid lightblue !important;
+}
+@media only screen and (max-width: 576px) {
+    .form_student{
+        /* align-items: center; */
+        /* border: 2px solid black; */
+        background-color: #1A01B0;
+        border-radius: 30px !important;
+        /* height: 80vh; */
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 36px;
+        margin-bottom: 2%;
+    }
+    label {
+        align-self: flex-start;
+        color: #fff;
+        font-size: 18px;
+        line-height: 4vh;
+        padding-top: 10px;
+        padding-left: 0px !important;
+    }
+    .text_style{
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        /* line-height: 1.3em; */
+    }
+    .web_view{
+        display: none;
+    }
+    .mobile_view{
+        display: block;
+    }
+    .popup-overlay {
+        display: none;
+        position: fixed;
+        bottom: 1%;
+        right: 1%;
+        width: 80%;
+        /* border: 2px solid green; */
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+    label {
+        align-self: flex-start;
+        color: #fff;
+        font-size: 12px;
+        line-height: 4vh;
+        padding-top: 6px;
+    }
+    
+    
+    .mobile_input{
+     /* width: 600px;
+    height: 65px; 
+    height: 6vh; */
+    /* margin-left: auto; */
+    margin-right: auto;
+    color: black;
+    font-family:'Manrope';
+    font-size: 10px;
+    border: 1px solid #ccc; /* Default border color */
+    transition: border-color 0.3s; /* Smooth transition effect */
+    outline: none;
+    padding-left: 5%;
+    height: 35px; 
+    width: 100% !important;
+    font-family: 'Manrope';
+}
+::placeholder {
+    font-family: 'Manrope', sans-serif;
+      font-size: 10px;
+      color: #D0CFCF;
+      font-weight: 50;
+      /* padding-left: 4%; */
+  }
+  .web_view{
+    display: none;
+  }
+  .mobile_view{
+    display: block;
+  }
+    
+  .code_platform{
+    padding-top: 0% !important;
+    font-size: 12px;
+    margin-top: -2.4% !important;
+    padding-right: 0% !important;
+    align-items: center !important;
+  }
+  input[type="password"]{
+    margin-right: auto;
+    color: black;
+    font-family:'Manrope';
+    margin-bottom: 10%;
+    font-size: 20px;
+    border: 1px solid #ccc; /* Default border color */
+    border-radius:50px;
+    transition: border-color 0.3s; /* Smooth transition effect */
+    outline: none;
+    padding-left: 5%;
+    height: 35px; 
+    width: 100% !important;
+    font-family: 'Manrope';
+}
+.button_class {
+    width: 160px;
+    height: 55px;
+    background: linear-gradient(60deg, #C04BE2, #6B54F7);
+    font-family: 'Manrope', sans-serif;
+    border: none;
+    border-radius: 50px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 0% ;
+    cursor: pointer;
+    color: #fff !important;
+}
+#enrollmentsTable th:nth-child(n+2):not(:last-child),
+#enrollmentsTable td:nth-child(n+2):not(:last-child) {
+    display: none;
+}
+
+/* Center align the content of the table cells */
+#enrollmentsTable td, #enrollmentsTable th {
+    text-align: center;
+}
+
+/* Make the table responsive by wrapping text */
+#enrollmentsTable td, #enrollmentsTable th {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+.click-message{
+    position: fixed;
+    bottom: 14vh;
+    right: 2vw;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+}
+
+}

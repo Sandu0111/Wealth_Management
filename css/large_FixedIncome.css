@@ -1,0 +1,148 @@
+@media only screen and (min-width: 1920px){
+    .subHeading h4 {
+        /* border: 2px solid red; */
+        font-family: 'Roca';
+        font-size: 4em;
+        color: #145DA0;
+    }
+    .subHeading p {
+        font-family: 'DM Sans';
+        font-size: 2.4em;
+        text-transform: uppercase;
+        color: #145DA0;
+    }
+    .HeadingImp h1 {
+        font-family: 'Roca';
+        font-size: 7em;
+        color: #8C52FF;
+    }
+    .button_big {
+        background: transparent;
+        color: #fff;
+        padding: 20px 72px;
+        border: 2px solid #343CFF;
+        color: #343CFF;
+        z-index: 9;
+        border-radius: 12px;
+        font-size: 2.4em;
+        text-transform: uppercase;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .subHeading2 {
+        font-family: 'DM Sans';
+        font-size: 3em;
+    }
+    .page3 p {
+        font-family: 'DM Sans';
+        font-size: 2.8em;
+        padding-top: 3%;
+        color: #fff;
+    }
+    .page3head
+    {
+        color: #9650DC;
+        font-size: 6em;
+        font-family: 'Roca';
+        /* margin-top: 20%; */
+        line-height: 1;
+    }
+
+    .text
+    {
+        color: #FCFAFC;
+        font-family: 'Roca';
+        font-size: 2.8em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 6%;
+        flex-direction: column;
+        
+    }
+    .number 
+    {
+        color: #C447E1;
+        font-family: 'Roca';
+        font-size: 6em;
+        justify-content: center;
+    }
+    .cards_para p {
+        font-family: 'DM Sans';
+        font-size: 1.6em;
+    }
+    .subHeading3 {
+        font-size: 5em !important;
+        font-family: 'Roca';
+        color: #8C52FF;
+        text-decoration: underline;
+    }
+    .card_fixed_heading h5 {
+        text-align: center;
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size:2.8em;
+        padding-top: 3%;
+    }
+    .cards_fixed_para P {
+        text-align: center;
+        color: #2A2E3A;
+        font-size: 1.4em;
+        padding-top: 4%;
+        font-family: 'DM Sans';
+    }
+    .page6_heading h4 {
+        background-color: #fff;
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size: 8em;
+        text-align: center;
+    }
+    .subHeading6 h4 {
+        font-family: 'Roca';
+        font-size: 5em;
+        color: #8C52FF;
+    }
+    .subHeading6 p {
+        font-family: 'DM Sans';
+        font-size: 2.4em;
+        color: #000;
+    }
+    .upper_box h4 {
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size:5em;
+    }
+    .upper_box p {
+        font-family: 'DM Sans';
+        font-size: 3em;
+        color: #0D0F68;
+    }
+    .lower_box p {
+        color: #EFECFF;
+        font-family: 'DM Sans';
+        font-size: 2.8em;
+        padding-top: 3%;
+    }
+    .headingPage9 h4 {
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size: 5em;
+        padding: 0%;
+        width: fit-content;
+    }
+    .page9Para {
+        font-family: 'DM Sans';
+        color: #0D0F68;
+        font-size: 3em;
+    }
+    .blue_box {
+        font-family: 'DM Sans';
+        font-size: 2.7em;
+        color: #EFECFF;
+        background-color: #0D0F68;
+        padding: 2% 2% 01% 2%;
+    }
+    .page9{
+        padding-left: 2%;
+    }
+}

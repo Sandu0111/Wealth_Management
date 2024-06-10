@@ -1,0 +1,662 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'Roca';
+    src: url(fonts/roca-one-bold.ttf);
+}
+.cards4All{
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards_4 {
+    background-image: url(../assets/fixed_income/bordersImg.png);
+    color: #0D0149;
+    height: 46vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.cards_4b {
+    background-image: url(../assets/fixed_income/border2.png);
+    color: #0D0149;
+    height: 46vh;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    display: flex;            /* Enable flexbox */
+    align-items: center;      /* Center items vertically */
+    justify-content: center; 
+}
+.cards_4_img{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    /* transform: translateX(-50%); */
+    /* transform: translateY(-50%); */
+    
+}
+.cards_4_img img{
+    width: 100%;
+}
+
+.cards4All .cards_para{
+    position: absolute;
+    bottom: 0%;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 72%;
+
+
+}
+.cards_para p{
+    font-family: 'DM Sans';
+    font-size: large;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/1.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/212.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.page3N
+    {
+        background: url('../assets/fixed_income/page3bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        background-size:100% 100%; 
+        width: 100vw;
+        height: fit-content;
+    }
+    .page3head
+    {
+        color: #9650DC;
+        font-size: 64px;
+        font-family: 'Roca';
+        /* margin-top: 20%; */
+        line-height: 1;
+    }
+
+    .text
+    {
+        color: #FCFAFC;
+        font-family: 'Roca';
+        font-size: 1.8em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 6%;
+        flex-direction: column;
+        
+    }
+    .number 
+    {
+        color: #C447E1;
+        font-family: 'Roca';
+        font-size: 4rem;
+        justify-content: center;
+    }
+.page3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/3.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.subHeading3{
+    font-size: 70px !important;
+    font-family: 'Roca';
+    color: #8C52FF;
+    text-decoration: underline;
+}
+.img_crads_fixed{
+    text-align: center;
+}
+.cards_fixed_para P{
+    text-align: center;
+    color: #2A2E3A;
+    font-size: 14px;
+    padding-top: 4%;
+    font-family: 'DM Sans';
+}
+.card_fixed_heading h5{
+    text-align: center;
+    color: #8C52FF;
+    font-family: 'Roca';
+    font-size: 30px;
+    padding-top: 3%;
+}
+.page3 .row{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page3 .container{
+    background-color: rgba(251, 251, 251, 0.7);
+    border-radius: 32px;
+    /* opacity: 0.6; */
+}
+
+.left{
+    background-color: #0D0F68;
+    border-radius: 120px;
+}
+.right{
+    background-color: #8C52FF;
+    border-radius: 120px;
+}
+.page3 p{
+    font-family: 'DM Sans';
+    font-size: 30px;
+    padding-top: 3%;
+    color: #fff;
+}
+.page4{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/4.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.bottom_div{
+    margin-bottom: 5%;
+}
+.page6_heading h4{
+   background-color: #fff;
+    color: #8C52FF;
+    font-family: 'Roca';
+    font-size: 85px;
+    text-align: center;
+}
+.page6U{
+    width: 100vw;
+    height: 100vh;
+    background:#0D0F68;
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    padding: 0% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page6U{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/22.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.page7{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/fixed_income/page7BG.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    display: flex;justify-content: center;align-items: center;
+}
+.page8{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    background-image: url('../assets/fixed_income/page8bg.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.page9{
+    width: 100vw;
+    height: fit-content;
+    background-image: url('../assets/fixed_income/25.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.blue_box{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    color: #EFECFF;
+    background-color: #0D0F68;
+    padding: 2% 2% 01% 2%;
+}
+.page9Para{
+    font-family: 'DM Sans';
+    color: #0D0F68;
+    font-size: 26px;
+    
+}
+.headingPage9 h4{
+color: #8C52FF;
+font-family: 'Roca';
+font-size: 56px;
+padding: 0%;
+width: fit-content;
+}
+.upper_box{
+    height: 50%;
+}
+.upper_box h4{
+    color: #8C52FF;
+    font-family: 'Roca';
+    font-size: 64px;
+
+}
+.footer{
+    background-image: url(../assets/fixed_income/footer.png);
+    background-position: center center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page10 {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #ffff;
+    /* border: 2px solid red; */
+    /* background-color: #0D0149; */
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}
+.img_page8 img{
+    /* border: 40px solid; 
+    border-image: linear-gradient(to right, #5479F7 30%,transparent 30%) 1; */
+    padding: 0;
+}
+.upper_box p{
+    font-family: 'DM Sans';
+    font-size: 32px;
+    color: #0D0F68;
+}
+.lower_box{
+    height: 50%;
+}
+.lower_box p{
+    color: #EFECFF;
+    font-family: 'DM Sans';
+    font-size: 28px;
+    padding-top: 3%;
+}
+/* .subHeading6{
+    margin-left: 10%;
+} */
+.card4_1{
+    background-image: url('../assets/fixed_income/card4_1.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+    
+}
+.card4_1 p,
+.card4_2 p,
+.card4_3 p{
+font-family: "DM Sans";
+font-size: 17px;
+}
+.padding{
+    height: 30vh;
+}
+.card4_2{
+    background-image: url('../assets/fixed_income/card4_2.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+}
+.card4_3{
+    background-image: url('../assets/fixed_income/card4_3.png');
+    background-size: 100% 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+}
+.HeadingImp h1{
+    font-family: 'Roca';
+    font-size: 72px;
+    color: #8C52FF;
+}
+.subHeading h4{
+    /* border: 2px solid red; */
+    font-family: 'Roca';
+    font-size: 56px;
+    color: #145DA0;
+}
+.subHeading6 p{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    color:#000 ;
+}
+.subHeading6 h4{
+    font-family: 'Roca';
+    font-size: 64px;
+    color: #8C52FF;
+}
+
+.subHeading p{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #145DA0;
+}
+.subHeading2{
+    font-family: 'DM Sans';
+    font-size: x-large;
+}
+.blue_bckg{
+    background-color:#343CFF ;
+    font-family: 'Roca';
+    font-size: 22px;
+    text-align: center;
+    border-radius: 12px;
+    /* padding: 0.2%; */
+}
+a.button_big {
+    text-decoration: none; /* Remove underline */
+    color: #343CFF; /* Inherit color from the parent or class */
+}
+.button_big {
+    background: transparent;
+    color: #fff;
+    padding: 10px 36px;
+    border: 2px solid #343CFF;
+    color: #343CFF;
+    z-index: 9;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button_big:hover {
+    background: #343CFF; /* Change to the desired background color on hover */
+    /* color: #000; Change to the desired text color on hover */
+    color: #ffff;
+}
+.mobile{
+    display: none;
+}
+.new4 {
+    height: 2px;
+background-color: #EFECFF;
+width: 20%;
+margin-top: -1%;
+display:block;
+height:2px;
+background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* margin-left: auto; */
+margin-right: auto;
+  }
+@media only screen and (max-width: 576px){
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .new4 {
+        height: 2px;
+    background-color: #EFECFF;
+    width: 60% !important;
+    margin-top: -2%;
+    display:block;
+    height:3px;
+    background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(13, 15, 104, 1) 50%, rgba(13, 15, 104, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin-left: auto;
+    margin-right: auto;
+      }
+    .button_big {
+        background: transparent;
+        color: #fff;
+        padding: 10px 8px;
+        font-size: 18px;
+        border: 2px solid #343CFF;
+        border-radius: 12px;
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    }
+    .button_big:hover {
+        background: #343CFF; /* Change to the desired background color on hover */
+        /* color: #000; Change to the desired text color on hover */
+    }
+    .page1M{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh !important;
+        background-image: url('../assets/fixed_income/1M.png');
+        background-size: 100% 100%;
+        height: fit-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .page2M{
+        width: 100vw;
+        /* height: 100vh !important; */
+        background-image: url('../assets/fixed_income/2M.png');
+        background-size: 100% 100%;
+        height: fit-content;
+        flex-direction: column;
+       
+    }
+    .page3M{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh !important;
+        background-image: url('../assets/fixed_income/3M.png');
+        background-size: 100% 100%;
+        height: fit-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .page3M .container{
+        background-color: rgba(251, 251, 251, 0.7);
+        border-radius: 32px;
+        width: 90% !important;
+        /* opacity: 0.6; */
+    }
+    .page4M{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: fit-content;
+        background-image: url('../assets/fixed_income/4M.png');
+        background-size: 100% 100%;
+        height: fit-content;
+        flex-direction: column;
+        text-align: center;
+    }
+    .page3M .row{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .page3M p{
+        font-family: 'DM Sans';
+        /* font-size: 30px; */
+        padding-top: 8%;
+        /* padding-bottom: 2%; */
+        color: #fff;
+    }
+    .topSub h5{
+        font-family: 'Roca';
+        font-size: 32px;
+        color: #145DA0;
+    }
+    .topSub p{
+        font-family: 'DM Sans';
+        font-size: 18px;
+        color: #145DA0;
+        text-transform: uppercase;
+    }
+    .mainHead h4{
+        font-family: 'Roca';
+        font-size: 40px;
+        color: #8C52FF;
+    }
+    .subHeading3{
+        font-size: 32px !important;
+        text-align: center;
+    }
+    .head2 h5{
+        font-family: 'Roca';
+        font-size: 34px;
+        color: #8C52FF;
+    }
+    .cards_para{
+        position: absolute;
+        bottom: 0%;
+        padding-left: 8%;
+        padding-right: 8%;
+        height: 70% !important;
+    
+    
+    }
+    .cards_para p{
+        font-family: 'DM Sans';
+        font-size: small;
+    }
+    .cards_4 {
+        background-image: url(../assets/fixed_income/bordersImg.png);
+        color: #0D0149;
+        height: 34vh;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 100% 100%;
+        background-position: center;
+        position: relative;
+    }
+    
+    .cards_4b {
+        background-image: url(../assets/fixed_income/border2.png);
+        color: #0D0149;
+        height: 34vh;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 100% 100%;
+        background-position: center;
+        position: relative;
+        display: flex;            /* Enable flexbox */
+        align-items: center;      /* Center items vertically */
+        justify-content: center; 
+    }
+    .subHead2 p{
+        font-family: 'DM Sans';
+        font-size: 16px;
+        color: #0D0149;
+    }
+    .subHeading h4{
+        /* border: 2px solid red; */
+        font-family: 'Roca';
+        font-size: 32px;
+        color: #0D0F68;
+    }
+    .card_fixed_heading h5{
+        text-align: center;
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .cards_fixed_para P {
+        text-align: center;
+        color: #2A2E3A;
+        font-size: x-small;
+        padding-top: 4%;
+        font-family: 'DM Sans';
+    }
+    .page6_heading h4 {
+        background-color: #fff;
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size: 36px;
+        text-align: center;
+    }
+    .page6U{
+        width: 100vw;
+        height: fit-content !important;
+        background:#0D0F68;
+        background-size: 100% 100%;
+        background-image: cover;
+        background-repeat: no-repeat;
+        padding: 0% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page6U{
+        width: 100vw;
+        height: fit-content !important;
+        background-image: url('../assets/fixed_income/22.png');
+        background-size: 100% 100%;
+        background-image: cover;
+        background-repeat: no-repeat;
+    }
+    .footerStyle {
+        background-image: url(../assets/Ellipse_43.png);
+        background-size: 100% 100%;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+    .page7M{
+        background-image: url('../assets/fixed_income/7M.png');
+        background-size: 100% 100%;
+        background-image: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,163 @@
+body{
+   width: 100%;
+}
+.text
+{
+  
+  margin-top: 20%;
+  /* margin-left: 10%; */
+  font-family: "Manrope";   
+  font-weight: 500;
+  font-size: 24px;
+  Line-height:32.78px;
+  padding-bottom: 45%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.rightside
+{
+    background:url(../assets/AboutUsGirl.png);
+    background-repeat: no-repeat;
+    background-size: 85% 100%; 
+    
+}
+.Sub_heading_h3{
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 36px;
+}
+.firstbg
+{
+  background: url(../assets/AboutUs_bg.png); 
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+}
+.head
+{
+  display: flex;
+  align-items: center;
+  margin-top: 5% !important;
+}
+.numbers
+{
+ 
+  display: flex;
+  font-size: 64px;
+  color: #000000;
+  font-family: 'Manrope';
+  font-weight: bold;
+  margin-top: 5% !important;
+  margin-left: 18%;
+  text-align: center;
+
+}
+.Onlytext
+{
+  padding-bottom: 10%;
+
+}
+.Core_values{
+  background-color: #6B54F7;
+}
+.mobilepart
+{
+  display: none;
+}
+
+/* ================================================================================================= */
+
+@media only screen and (max-width: 768px){ 
+  .desk{
+   display: none;
+    }
+
+    .mobilepart {
+      display: block;
+     
+    .topbg{
+      background:url('../assets/ABoutUsMobileVIewbg.png');
+      background-repeat: no-repeat;
+      align-items: center;
+      height: 100vh !important;
+      width: 100vw !important;
+      justify-content: center;
+      background-size: 100% 100%;
+    }
+      margin-left: auto;
+      margin-left: auto;
+     
+      }
+      .text
+      {
+        margin-top: 0%;
+       margin-left: 3%;
+       margin-right: 3%;
+        font-size: 12px;
+        font-family: 'Manrope';
+        font-weight: 500;
+        line-height: 1.5;
+      }
+      .numbers {
+        padding-bottom: 3%;
+        padding-left: 18px;
+        font-size: 25px;
+      }
+      
+      .numbers > div {
+        margin-bottom: 10px; /* Add some space between each number block */
+      }
+      
+      .numbers i {
+        color: #3E97FF;
+        font-size: 25px;
+      }
+      
+      .numbers span {
+        font-size: 15px;
+      }
+      .middle
+      {
+        background-color: #6B54F7;
+      }
+      .middle h1 {
+       text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #FFF;
+      font-family: 'playfair display';
+      font-weight: 500;
+    }
+    .container
+    {
+      display: flex;
+      background-color: #FFF;
+      border-radius: 20px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      margin-bottom: 10%;
+
+    }
+    .small-image {
+      width: 50px; 
+      height: 50px; 
+  }    
+  .ourteam h1
+  {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   color: #0400C8;
+    font-family: 'playfair display';
+    font-weight: 600;
+  }
+  .finalText
+  {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 13.66px;
+  text-align: center;
+
+  }
+}

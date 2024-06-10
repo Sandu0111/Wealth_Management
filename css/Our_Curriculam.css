@@ -1,0 +1,168 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    width: 100%;
+}
+.nav_bar{
+    width: 100vw !important;
+    padding: 1% 0%;
+}
+.book_1{
+    width: 100vw !important;
+}
+.nav_bar .row {
+    display: flex;
+    align-items: center;
+}
+.nav_bar .col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book_heading{
+    position: relative;
+    
+}
+.book_heading img{
+    width: 100vw;
+    margin-top: -2%;
+   
+}
+.book_heading_text{
+    position: absolute;
+    top: 8%;
+    color: #ffff;
+    left: 4%;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    
+}
+.book_heading_text h2{
+    font-size: 40px !important;
+}
+.book_open{
+    margin-top: -6% !important;
+}
+.listed{
+    color: #0018C3;
+}
+.listed li{
+    font-size: 24px;
+    
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.rightTxt{
+    font-size: 18px !important;
+    font-family: Manrope;
+    padding-right: 1%;
+    color: #696969;
+}
+.custom-list {
+    list-style-type: decimal;
+    font-family: Arial, sans-serif; /* Change the font to your desired font */
+    /* Additional styling can be added here */
+}
+.custom-list li {
+    line-height: 1.5;
+     /* Adjust the line height as needed */
+}
+.img_middle{
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    margin-top: -12%;
+}
+.img_fox
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: -30%;
+}
+.img_middle2{
+    margin-left: auto;
+    margin-right: auto;
+    width:100vw;
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    z-index: 0;
+}
+.img_middle img{
+    width: 100%;
+}
+.img_bg{
+    position: relative;
+}
+.videoplayer{
+    position: absolute;
+    bottom: 16%;
+    left: 6%;
+    width: 80% !important;
+}
+.bottom_txt{
+    font-size: 14px;
+    font-family: 'Manrope';
+    color: #696969;
+}
+
+.dummy_video{
+    width: 112%;
+    height: 20vw;
+    background-color: #696969;
+   
+}
+
+.mobilepart
+{
+    display: none !important;
+}
+/*=============================================================== Mobile view ====================================================================================================== */
+
+
+@media only screen and (max-width: 768px)
+{
+    .desk
+    {
+        display: none;
+    }
+    .mobilepart
+    {
+        display: block !important; 
+        .custom-list {
+            list-style-type: decimal;
+            font-family: Arial, sans-serif; /* Change the font to your desired font */
+            /* Additional styling can be added here */
+            color: 0018C3 !important;
+        }
+        .custom-list li {
+            line-height: 1.2;
+            font-size: 11px;
+            margin: 0;   /* Removes the margin between list items */
+            padding: 3px;  /* Removes the padding between list items */
+            /* Adjust the line height as needed */
+            color: #0018C3;
+        }
+        .matter
+        {
+            /* text-align: left; */
+           font-size: 12px;
+        }
+        .book_heading_text{
+            position: absolute;
+            top: 8%;
+            color: #ffff;
+            left: 4%;
+            font-family: 'Playfair Display', serif;
+            font-size: 10px;
+            letter-spacing: 1.2px;
+            
+        }
+        
+    }
+}

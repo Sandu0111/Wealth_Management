@@ -1,0 +1,134 @@
+@media only screen and (min-width: 1920px){
+    .HeadingMain {
+        font-family: 'Roca';
+        font-size: 7em;
+        z-index: 3;
+        text-transform: uppercase;
+    }
+    .HeadingMain2 {
+        font-family: 'Roca';
+        font-size: 3em;
+        z-index: 3;
+        text-transform: uppercase;
+    }
+    .button_big {
+        background: transparent;
+        color: #fff;
+        padding: 20px 72px;
+        border: 2px solid #343CFF;
+        color: #343CFF;
+        z-index: 9;
+        border-radius: 12px;
+        font-size: 2.4em;
+        text-transform: uppercase;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .subHeading {
+        font-family: 'Roca';
+        font-size: 3em;
+    }
+    .text_page2 h3 {
+        width: fit-content;
+        color: #8C52FF;
+        font-family: 'Roca';
+        font-size: 5em;
+        font-weight: bolder;
+    }
+    .text_page2 p {
+        font-family: 'DM Sans';
+        font-size: 2em;
+        color: #0A004B;
+    }
+    .page3head {
+        color: #9650DC;
+        font-size: 4em;
+        font-family: 'Roca';
+        /* margin-top: 20%; */
+        line-height: 1;
+    }
+    .text {
+        color: #FCFAFC;
+        font-family: 'Roca';
+        font-size: 2.2em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 2%;
+        flex-direction: column;
+    }
+    .number {
+        color: #C447E1;
+        font-family: 'Roca';
+        font-size: 5rem;
+        justify-content: center;
+    }
+    .HeadingMain3 {
+        color: #ffff;
+        font-family: 'Roca';
+        font-size: 4em;
+        text-align: center;
+    }
+    .cards_wim p {
+        font-size: 2em;
+        font-family: 'DM Sans';
+        color: #772DEF;
+        text-align: center;
+    }
+    .Page5Heading {
+        font-family: 'Roca';
+        font-size: 3.6em;
+        color: #772DEF;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    .page5a_cards h4 {
+        font-family: 'Roca';
+        font-size: 2.4em;
+        color: #290276;
+    }
+    .page5a_cards P {
+        font-family: 'DM Sans';
+        font-size: 1.6em;
+        color: #290276;
+    }
+    .page6Head h5 {
+        font-family: 'Roca';
+        font-size: 6em;
+        color: #0D0149;
+    }
+    .page7head h4 {
+        font-size: 6em;
+        font-family: 'Roca';
+        text-align: center;
+        color: #8C52FF;
+    }
+    .page7head p {
+        font-size: 2em;
+        font-family: 'DM Sans';
+        text-align: center;
+        color: #FFFF;
+    }
+    .blueBox h4 {
+        font-size: 3em;
+        font-family: 'Roca';
+    }
+    .light_blueBox h4 {
+        font-family: 'DM Sans';
+        font-size: 2.6em;
+        text-align: left !important;
+        color: #ffff;
+        margin-bottom: 0% !important;
+        background-color: #5271FF;
+        padding: 2%;
+    }
+    .leftSide p {
+        font-family: 'DM Sans';
+        font-size: 2.2em;
+        text-align: left !important;
+        color: #000000;
+        margin-bottom: 0% !important;
+        padding-top: 2%;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

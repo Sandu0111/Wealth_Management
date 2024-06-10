@@ -1,0 +1,389 @@
+@font-face {
+    font-family: 'Roca';
+    src: url(fonts/roca-one-bold.ttf);
+}
+.page1 {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+@keyframes panIn {
+    0% {
+        background-size: 100%; /* Start with the background image zoomed in */
+        opacity: 0;
+    }
+    50% {
+        background-size: 200%; /* Pan to the original size */
+        opacity: 1;
+    }
+    100% {
+        background-size: 150%; 
+        opacity: 1;
+    }
+}
+
+.star_bg {
+    background: url('../assets/star_bg.png');
+    /* border: 2px solid red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    /* Initial state without animation */
+    animation: none;
+}
+.star_bg.animate {
+    animation: panIn 2s ease-in-out forwards; /* Apply the animation */
+}
+.new4 {
+    height: 2px;
+background-color: #EFECFF;
+width: 40%;
+margin-top: 0%;
+display:block;
+height:3px;
+background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+margin-left: auto;
+margin-right: auto;
+  }
+
+.HeadingMain{
+    font-family: 'Roca';
+    font-size: 92px;
+    z-index: 3;
+    text-transform: uppercase;
+}
+.HeadingMain2{
+    font-family: 'Roca';
+    font-size: 46px;
+    z-index: 3;
+    text-transform: uppercase;
+}
+.subHeading{
+    font-family: 'Roca';
+    font-size: 40px;
+}
+a.button_big {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the parent or class */
+}
+.desk{
+    display: block;
+}
+.button_big {
+    background: transparent;
+    color: #fff;
+    padding: 10px 36px;
+    border: 2px solid #343CFF;
+    border-radius: 12px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button_big:hover {
+    background: #343CFF; /* Change to the desired background color on hover */
+    /* color: #000; Change to the desired text color on hover */
+}
+.page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #9679F6; */
+    background-color: rgba(150, 121, 246, 0.3);
+}
+.text_page2{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.page3N
+    {
+        background: url('../assets/Wealth_management/page3bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        background-size:100% 100%; 
+        width: 100vw;
+        height: fit-content;
+    }
+    .page3head
+    {
+        color: #9650DC;
+        font-size: 64px;
+        font-family: 'Roca';
+        /* margin-top: 20%; */
+        line-height: 1;
+    }
+
+    .text
+    {
+        color: #FCFAFC;
+        font-family: 'Roca';
+        font-size: 1.8em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-left: 6%;
+        flex-direction: column;
+        
+    }
+    .number 
+    {
+        color: #C447E1;
+        font-family: 'Roca';
+        font-size: 4rem;
+        justify-content: center;
+    }
+.text_page2 h3{
+    width: fit-content;
+    color: #8C52FF;
+    font-family: 'Roca';
+    font-size: 42px;
+    font-weight: bolder;
+}
+.text_page2 p{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    color: #0A004B;
+}
+
+.page4{
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(180deg, #9679F6 56%, #0A004B 56%); 
+    position: relative;
+}
+.HeadingMain3{
+    color: #ffff;
+    font-family: 'Roca';
+    font-size: 46px;
+    text-align: center;
+}
+.cards_wim_all{
+    /* position: absolute; */
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards_wim{
+    background-image: url(../assets/Wealth_management/cards_wim.png);
+  
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cards_wim p{
+    font-size: 20px;
+    font-family: 'DM Sans';
+    color: #772DEF;
+    text-align: center;
+}
+.Page5Heading{
+    font-family: 'Roca';
+    font-size: 42px;
+    color: #772DEF;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.page5{
+    background-image: url(../assets/Wealth_management/5bg.png);
+  
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.page5a_card{
+    text-align: center;
+    
+}
+.page5a_cards{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page5a_cards h4{
+    font-family: 'Roca';
+    font-size: 24px;
+    color: #290276;
+}
+.page5a_cards P{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    color: #290276;
+
+}
+.page5a{
+    background: transparent;
+}
+.horizontal_line {
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    background-color: #86EAE9; /* Adjust color as needed */
+    top: 36%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.horizontal_line2 {
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    background-color: #1C88CF; /* Adjust color as needed */
+    top: 36%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.page6{
+    width: 100vw;
+    height: 80vh;
+    background: url('../assets/Wealth_management/12.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size:cover; */
+        background-size:100% 100%; 
+    
+}
+.page7 {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden; 
+    background-color: #0A004B/* Ensures the video stays within the container */
+}
+
+.page7 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vid{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    opacity: 0.1; /* Opacity value between 0 (transparent) and 1 (opaque) */
+}
+.page7head{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    height: 80vh;
+    width: 100vw;
+    flex-direction: column;
+    /* border: 2px solid red; */
+   
+}
+.page7head h4{
+    font-size: 64px;
+    font-family: 'Roca';
+    text-align: center;
+    color: #8C52FF;
+}
+.page7head p{
+    font-size: 18px;
+    font-family: 'DM Sans';
+    text-align: center;
+    color: #FFFF;
+}
+.blueBox{
+    background-color: #0A004B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.blueBox h4{
+    font-size: 28px;
+    font-family: 'Roca';
+}
+.page6Head h5{
+    font-family: 'Roca';
+    font-size: 64px;
+    color: #0D0149;
+}
+.leftSide{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.light_blueBox{
+    /* background-color: #5271FF;
+    padding: 2%; */
+    width: 80%;
+}
+.light_blueBox h4{
+    font-family: 'DM Sans';
+    font-size: 32px;
+    text-align: left !important;
+    color: #ffff;
+    margin-bottom:0% !important ;
+    background-color: #5271FF;
+    padding: 2%;
+}
+.leftSide p{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    text-align: left !important;
+    color: #000000;
+    margin-bottom:0% !important ;
+    padding-top: 2%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+.footer{
+    background-image: url(../assets/Wealth_management/footer.png);
+    background-position: center center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page10 {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #ffff;
+    /* border: 2px solid red; */
+    /* background-color: #0D0149; */
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}

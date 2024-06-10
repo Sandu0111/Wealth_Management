@@ -1,0 +1,744 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+}
+@font-face {
+    font-family: 'Roca';
+    src: url(fonts/roca-one-bold.ttf);
+}
+@keyframes panIn {
+    0% {
+        background-size: 100%; /* Start with the background image zoomed in */
+        opacity: 0;
+    }
+    50% {
+        background-size: 200%; /* Pan to the original size */
+        opacity: 1;
+    }
+    100% {
+        background-size: 150%; 
+        opacity: 1;
+    }
+}
+.card_align{
+    border: 2px solid green;
+    
+}
+.img_position img {
+    width: 56%;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: -2%;
+    transform: translate(-50%, -50%);
+}
+.img_position2 img {
+    width: 60%;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+}
+.img_position3 img {
+    width: 46%;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: -2%;
+    transform: translate(-50%, -50%);
+}
+
+.finCard{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* margin-top: -8% !important; */
+    height: 260px;
+    background-color: #EFECFF;
+    border: 2px solid #EFECFF;
+    border-radius: 20px !important;
+}
+.finCard2{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    /* margin-top: -8% !important; */
+    height: 260px;
+    color: #EFECFF;
+    background-color: transparent;
+    border: 2px solid #EFECFF;
+    border-radius: 20px !important;
+}
+
+
+.star_bg {
+    background: url('../assets/star_bg.png');
+    /* border: 2px solid red; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    /* Initial state without animation */
+    animation: none;
+}
+
+.star_bg.animate {
+    animation: panIn 2s ease-in-out forwards; /* Apply the animation */
+}
+
+.horizontalLine {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #efecffe8, #EFECFF); /* Gradient color */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+    margin: 0px 0px 10px 0;
+}
+.new4 {
+    height: 2px;
+background-color: #EFECFF;
+width: 40%;
+margin-top: 0%;
+display:block;
+height:3px;
+background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+margin-left: auto;
+margin-right: auto;
+  }
+
+.HeadingMain{
+    font-family: 'Roca';
+    font-size: 120px;
+    z-index: 2;
+}
+/* .imgdivE img{
+    height: 80px;
+    max-height: 100px !important;
+} */
+.HeadingMain2{
+    font-family: 'Roca';
+    font-size: 42px;
+    color: #343CFF;
+   
+}
+.HeadingMain3{
+    font-family: 'Roca';
+    font-size: 32px;
+    color: #0D0149;
+}
+.marginleft1{
+ margin-left: 8%;
+}
+.paddingLeft{
+    padding-left: 16%;
+}
+.subHeading{
+    font-family: 'Roca';
+    font-size: 40px;
+}
+.imgdiv{
+    height: 34%;
+}
+.subHeading2{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.blue_bckg{
+    background-color:#343CFF ;
+    font-family: 'Roca';
+    font-size: 22px;
+    text-align: center;
+    border-radius: 12px;
+    /* padding: 0.2%; */
+}
+.footer{
+    background-image: url(../assets/Equities/footer.png);
+    background-position: center center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subHeading3{
+    font-family: 'DM Sans';
+    font-size: 22px;
+    color: #0D0149;
+}
+.subHeading4{
+    font-family: 'DM Sans';
+    font-size: 110%;
+    color: #0D0149;
+}
+.imgPage4 img{
+    width: 90%;
+}
+a.button_big {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the parent or class */
+}
+.desk{
+    display: block;
+}
+.button_big {
+    background: transparent;
+    color: #fff;
+    padding: 10px 36px;
+    border: 2px solid #343CFF;
+    border-radius: 12px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button_big:hover {
+    background: #343CFF; /* Change to the desired background color on hover */
+    /* color: #000; Change to the desired text color on hover */
+}
+.page1 {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+.mobile{
+    display: none;
+}
+.page9 {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}
+.small_btn{
+    background-color: #343CFF;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+
+}
+.page10 {
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: #9F8BFF;
+    /* border: 2px solid red; */
+    /* background-color: #0D0149; */
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    /* background-image: url('../assets/Equities/page3.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;    
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background: linear-gradient(90deg, #F2F2F2, #8F8F8F);
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.page5{
+    
+    /* border: 2px solid red; */
+    background-color: #9F8BFF;
+    color: #fff;
+    /* max-width: 100vw !important; */
+
+}
+.page8{
+    background-color: #9F8BFF;
+    color: #fff;
+    width: 100vw;
+}
+.box{
+    background-color: #0D0149;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    /* padding-left: 4%; */
+    font-family: 'DM Sans';
+    font-size: 22px;
+}
+.page8 p{
+    font-family: 'DM Sans';
+    font-size: 16px;
+}
+.page6{
+    background-image: url('../assets/fintech/10.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+}
+.page6E{
+    background-image: url('../assets/Equities/page6.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+}
+.page7 {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;     /* Vertically centers the content */
+}
+.page6Heading{
+    /* position: absolute; */
+    /* bottom: 0; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+    color: #ffff !important;
+    padding-bottom: 2%;
+    /* align-items:flex-end; */
+}
+.page6EHeading{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: column; */
+    /* height: 100%; */
+    color: #ffff !important;
+    /* padding-bottom: 2%; */
+    /* align-items:flex-end; */
+}
+.purple{
+    display: flex;
+    padding-left: 0% !important;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.image_listing{
+    position: absolute;
+    width: 40%;
+    left: 20%;
+}
+.leftSidePage5{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 2%; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.purple h4{
+    font-family: 'Roca';
+    font-size: 24px;
+    margin-left: 6%;
+    color: #0D0149;
+}
+.purple p{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    margin-left: 6%;
+}
+.FintechCards{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'DM Sans';
+    font-size: 17px;
+}
+.cardFintech1{
+    margin-right: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    padding-bottom: 1%;
+    border-radius: 20px;
+
+}
+.cardFintech3{
+    margin-left: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    border-radius: 20px;
+    
+    padding-bottom: 1%;
+}
+.cardFintech2{
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    padding-bottom: 1%;
+}
+@media only screen and (max-width: 576px){
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        overflow-x: hidden;
+    }
+    .star_bgMB {
+        background: url('../assets/star_bg.png');
+        /* border: 2px solid red; */
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    
+        /* Initial state without animation */
+        animation: none;
+    }
+    
+    .star_bgMB.animate {
+        animation: panIn 2s ease-in-out forwards; /* Apply the animation */
+    }
+    @keyframes panIn {
+        0% {
+            background-size: 200%; /* Start with the background image zoomed in */
+            opacity: 0;
+        }
+        50% {
+            background-size: 400%; /* Pan to the original size */
+            opacity: 1;
+        }
+        100% {
+            background-size: 200%; 
+            opacity: 1;
+        }
+    }
+    
+    .page1{
+        max-width: 100%;
+        height: fit-content !important;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        position: relative;
+    }
+    .subHeading4{
+        font-family: 'DM Sans';
+        font-size: 19px;
+        color: #0D0149;
+    }
+    .new4 {
+        height: 2px;
+    background-color: #EFECFF;
+    width: 80%;
+    margin-top: -2%;
+    display:block;
+    height:3px;
+    background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    margin-left: auto;
+    margin-right: auto;
+      }
+      
+      
+.cardFintech1{
+    margin-right: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    height: 320px;
+    /* padding-bottom: 1%; */
+    border-radius: 20px;
+
+}
+.cardFintech3{
+    margin-left: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    border-radius: 20px;
+    height: 320px;
+    /* padding-bottom: 1%; */
+}
+.cardFintech33{
+    margin-left: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    border-radius: 20px;
+    height: 280px;
+    /* padding-bottom: 1%; */
+}
+.cardFintech2{
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    /* padding-bottom: 1%; */
+}
+.cardFintech22{
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 340px;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    /* padding-bottom: 1%; */
+}
+    .page2{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background: #ffff;
+        color: #fff;
+        /* Flexbox properties */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;
+    }
+    .page3{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #F2F2F2;
+        color: #fff;
+        /* Flexbox properties */
+            
+    }
+    .page4{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #0D0149;
+        color: #fff;
+        /* Flexbox properties */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .blue_bckg{
+        background-color:#343CFF ;
+        font-family: 'Roca';
+        font-size: 16px;
+        text-align: center;
+        border-radius: 12px;
+        padding: 4%;
+    }
+    .box h5{
+        background-color: #0D0149;
+        /* padding-top: 4%; */
+        /* padding-bottom: 2%; */
+        padding-left: 1%;
+        padding-right: 1%;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 18px !important;
+    }
+    .horizontalLine {
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, #efecffe8, #EFECFF); /* Gradient color */
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+        margin: 0px 0px 10px 0;
+    }
+    .subHeading{
+        font-family: 'Roca';
+        font-size: 24px;
+        color: #fff;
+    }
+    .subHeading2{
+        /* font-family: 'Roca'; */
+        font-family: 'DM Sans';
+        font-size: 20px;
+        color: #fff;
+    }
+    .HeadingMain{
+        font-family: 'Roca';
+        font-size: 68px;
+        padding-left: 1%;
+        padding-right: 1%;
+        line-height: 70px;
+    }
+    .HeadingMain1{
+        font-family: 'Roca';
+        font-size: 68px;
+        padding-left: 1%;
+        padding-right: 1%;
+        /* line-height: 70px; */
+    }
+    .HeadingMain11{
+        font-family: 'Roca';
+        font-size: 68px;
+        /* padding-left: 1%;
+        padding-right: 1%; */
+        /* line-height: 70px; */
+    }
+    .HeadingMain2{
+        font-family: 'Roca';
+        font-size: 32px;
+        color: #343CFF;
+       
+    }
+    .button_big {
+        background: transparent;
+        color: #fff;
+        padding: 10px 8px;
+        font-size: 18px;
+        border: 2px solid #343CFF;
+        border-radius: 12px;
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    }
+    .purple h4{
+        font-family: 'Roca';
+        font-size: 18px;
+        margin-left: 6%;
+        color: #0D0149;
+    }
+    .purple p{
+        font-family: 'DM Sans';
+        font-size: 12px;
+        margin-left: 6%;
+    }
+    .icons_social a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .page6{
+        background-image: url('../assets/fintech/10.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: fit-content;
+        /* height: 100vh; */
+        /* width: 100vw; */
+        /* position: relative; */
+    }
+    /* .img_position{
+        height: 2%;
+    } */
+    .finCard{
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+        /* margin-top: -8% !important; */
+        height: 80px;
+        background-color: #EFECFF;
+        border: 2px solid #EFECFF;
+        border-radius: 20px !important;
+    }
+    .page6E{
+        background-image: url('../assets/Equities/page6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: fit-content;
+        /* height: 100vh; */
+        /* width: 100vw; */
+        /* position: relative; */
+    }
+    .subHeading3{
+        font-family: 'DM Sans';
+        font-size: 17px;
+        color: #0D0149;
+    }
+    
+    .page6EHeading{
+        /* position: absolute; */
+        /* bottom: 0; */
+        padding-top: 4%;
+        padding-bottom: 50vh !important;
+        display: block;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        color: #ffff !important;
+        padding-bottom: 2%;
+        /* align-items:flex-end; */
+    }
+    .page6Heading{
+        /* position: absolute; */
+        /* bottom: 0; */
+        padding-top: 100%;
+        display: block;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        color: #ffff !important;
+        padding-bottom: 2%;
+        /* align-items:flex-end; */
+    }
+    .page7 {
+        height:fit-content;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #0D0149;
+        color: #fff;
+        /* Flexbox properties */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;     /* Vertically centers the content */
+    }
+    .imgPage4 img{
+        width: 100%;
+    }
+    .imgPage4{
+        width: 100%;
+        /* padding: 0% !important; */
+    }
+    
+    .button_big:hover {
+        background: #343CFF; /* Change to the desired background color on hover */
+        /* color: #000; Change to the desired text color on hover */
+    }
+}

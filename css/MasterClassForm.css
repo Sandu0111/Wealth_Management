@@ -1,0 +1,209 @@
+body{
+    background:url(../assets/masterclass_bg.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      min-width: 100vw;
+       }
+       .button_class {
+        width: 150px;
+        height: 45px;
+        background: linear-gradient(90deg, #C04BE2, #6B54F7);
+        font-family: 'Manrope', sans-serif;
+        border: none;
+        border-radius: 50px !important;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin-right: 8%;
+        cursor: pointer;
+        color: #fff !important;
+    }
+    
+   .formContainer
+   {
+     font-family: 'Manrope';
+      text-align: center; 
+      border-radius: 25px;
+      margin-top: 2%;
+      background-color: #0A004B;
+   }
+   h2 {
+          font-size:40px;
+          height: 70px; 
+          font-weight: bold; 
+          font-family: 'Manrope';
+          letter-spacing: 2px;
+      }  
+
+   form {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 5%;
+          border-radius: 25px;
+          font-family: 'Manrope', sans-serif;
+         
+      }
+    .form
+    {
+      display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          border-radius: 25px;
+          margin-top: 1%;
+          font-family: 'Manrope', sans-serif;
+    }
+      
+      label {
+          align-self: flex-start;
+          color: #fff;
+          font-size: 18px;
+          line-height: 4vh;
+          padding-top: 10px;
+      }
+      ::placeholder {
+        font-family: 'Manrope', sans-serif;
+          font-size: 14px;
+          color: #D0CFCF;
+          font-weight: 50;
+          /* padding-left: 4%; */
+      }
+      input[type="text"],
+      input[type="number"],
+      input[type="email"],
+      input[type="tel"] {
+           /* width: 600px;
+          height: 65px; 
+          height: 6vh; */
+          /* margin-left: auto; */
+          margin-right: auto;
+          color: black;
+          font-family:'Manrope';
+          font-size: 20px;
+          border: 1px solid #ccc; /* Default border color */
+          transition: border-color 0.3s; /* Smooth transition effect */
+          outline: none;
+          padding-left: 5%;
+          height: 45px; 
+          width: 300px;
+          font-family: 'Manrope';
+      }
+      /* Hover effect for input fields */
+       input[type="text"]:focus,
+      input[type="number"]:focus,
+      input[type="email"]:focus,
+      input[type="tel"]:focus {
+       border: 2px solid lightblue !important;
+      }
+      .mobilepart
+      {
+        display: none;
+      }
+    /* =======================================================mobileview ==============================*/
+    @media only screen and (max-width: 768px) 
+  {
+    
+         .desk
+         {
+          display: none;
+         } 
+         .mobilepart
+         {
+            display: block;
+            background:url(../assets/masterclass_bg.png);
+            background-repeat: no-repeat;
+            background-size: 100vw 100%;
+            min-width: 100vw ;
+         }
+
+      .headline
+      {
+        text-align: center;
+        margin-top: 3%;
+        font-family: 'Playfair Display', serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 18.66px;
+        text-align: center;
+        color: #fff;
+      }
+
+      .formContainer
+      {
+        
+         font-family: 'Manrope';
+         text-align: center;
+         margin-top: 3%;
+         background-color: #1A01B0;
+      }
+      h2 {
+             font-size:12px;
+             height: 20px; 
+             font-weight: bold; 
+             font-family: 'Manrope';
+             letter-spacing: 2px;
+         }  
+   
+      form {
+             width: 100%;
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             border-radius: 15px;
+             padding-bottom: 0%;
+             font-family: 'Manrope', sans-serif;
+         }   
+         label {
+             align-self: flex-start;
+             color: #fff;
+             font-size: 13px;
+         }
+         ::placeholder {
+           font-family: 'Manrope', sans-serif;
+             font-size: 14px;
+             color: #D0CFCF;
+             font-weight: 20px;
+             /* padding-left: 4%; */
+         }
+         input[type="text"],
+         input[type="number"],
+         input[type="email"],
+         input[type="tel"] {
+             margin-right: auto;
+             color: black;
+             font-family:'Manrope';
+             font-size: 12px;
+             border: 1px solid #ccc; /* Default border color */
+             transition: border-color 0.3s; /* Smooth transition effect */
+             outline: none;
+             margin-bottom: 3%;
+             height: 35px; 
+             width: 100%;
+             font-family: 'Manrope';
+         }
+         /* Hover effect for input fields */
+          input[type="text"]:focus,
+         input[type="number"]:focus,
+         input[type="email"]:focus,
+         input[type="tel"]:focus {
+          border: 2px solid lightblue !important;
+         }
+         .button_class {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            margin-left: 3%;
+            width: 140px;
+            height: 38px;
+            background: linear-gradient(90deg, #C04BE2, #6B54F7);
+            font-family: 'Manrope', sans-serif;
+            border: none;
+            border-radius: 50px !important;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            color: #fff !important;
+
+  }
+  }
