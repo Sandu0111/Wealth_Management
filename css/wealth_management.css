@@ -516,7 +516,9 @@ video {
     }
     .page1M{
         background-color: #0D0149;
-        height: 90vh;
+        height: fit-content;
+        padding-top: 15%;
+        padding-bottom: 15%;
         width: 100vw;
         display: flex;
         align-items: center;
