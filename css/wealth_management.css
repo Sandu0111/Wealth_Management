@@ -103,7 +103,7 @@ a.button_big {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     /* background-color: #9679F6; */
     background-color: rgba(150, 121, 246, 0.3);
 }
